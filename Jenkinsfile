@@ -10,7 +10,7 @@ pipeline{
             }
             
         }
-        stage("Code")
+        stage("Code Clone")
         {
             steps{
                 script{
